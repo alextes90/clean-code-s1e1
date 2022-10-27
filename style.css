@@ -22,11 +22,12 @@
 
 @media (max-width:768px) {
 
-.header { text-align: center;
-
+.header {
+     text-align: center;
 }
 
 }
+
 .main-wrapper {
     display: block;
     width: 500px;
@@ -44,12 +45,12 @@
 }
 
 .list {
-    margin:0;
+    margin: 0;
     padding: 0px;
 }
 
 .list__item, .block-title {
-    list-style:none;
+    list-style: none;
 }
 
 .check__item,
@@ -58,7 +59,7 @@
 .edit,
 .delete
 {
-    outline:none;
+    outline: none;
 }
 
 .edit,
@@ -162,12 +163,12 @@
 
 /* Edit Task */
 .list .list__item .task {
-    display:none
+    display: none
 }
 
 .list__item.edit-mode .task{
-    display:inline-block;
-    width:224px
+    display: inline-block;
+    width: 224px
 }
 
 .list__item.edit-mode .task__item{
