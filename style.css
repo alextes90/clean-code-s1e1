@@ -142,7 +142,7 @@
 }
 
 .task {
-    width: 226px
+    width: 226px;
 }
 
 .delete .delet-img {
@@ -156,21 +156,21 @@
 }
 
 /* Completed */
-#completed-tasks{
-    text-decoration: line-through
+#completed-tasks {
+    text-decoration: line-through;
     color: #888;
 }
 
 /* Edit Task */
 .list .list__item .task {
-    display: none
+    display: none;
 }
 
-.list__item.edit-mode .task{
+.list__item.edit-mode .task {
     display: inline-block;
-    width: 224px
+    width: 224px;
 }
 
-.list__item.edit-mode .task__item{
+.list__item.edit-mode .task__item {
     display: none;
 }
